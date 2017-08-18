@@ -1,2 +1,3 @@
 name: Krish, Web developer
 markdown: onyourmark
+permalink: /blog/:year/:month/:day/:title
