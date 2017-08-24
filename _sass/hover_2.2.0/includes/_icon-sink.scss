@@ -1,0 +1,7 @@
+/* ICONS */
+@import "effects/icons/icon-sink";
+@if $includeClasses {
+	.#{$nameSpace}-icon-sink {
+		@include icon-sink();
+	}
+}

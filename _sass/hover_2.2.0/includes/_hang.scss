@@ -1,0 +1,6 @@
+@import "effects/2d-transitions/hang";
+@if $includeClasses {
+	.#{$nameSpace}-hang {
+		@include hang();
+	}
+}

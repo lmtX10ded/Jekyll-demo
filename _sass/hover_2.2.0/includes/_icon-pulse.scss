@@ -1,0 +1,7 @@
+/* ICONS */
+@import "effects/icons/icon-pulse";
+@if $includeClasses {
+	.#{$nameSpace}-icon-pulse {
+		@include icon-pulse();
+	}
+}

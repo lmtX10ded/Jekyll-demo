@@ -1,0 +1,7 @@
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/back-pulse";
+@if $includeClasses {
+	.#{$nameSpace}-back-pulse {
+		@include back-pulse();
+	}
+}

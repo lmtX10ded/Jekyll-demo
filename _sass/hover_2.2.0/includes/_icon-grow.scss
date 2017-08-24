@@ -1,0 +1,7 @@
+/* ICONS */
+@import "effects/icons/icon-grow";
+@if $includeClasses {
+	.#{$nameSpace}-icon-grow {
+		@include icon-grow();
+	}
+}

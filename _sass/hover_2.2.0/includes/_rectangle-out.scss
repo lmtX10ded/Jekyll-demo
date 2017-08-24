@@ -1,0 +1,7 @@
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/rectangle-out";
+@if $includeClasses {
+	.#{$nameSpace}-rectangle-out {
+		@include rectangle-out();
+	}
+}

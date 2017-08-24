@@ -1,0 +1,7 @@
+/* ICONS */
+@import "effects/icons/icon-shrink";
+@if $includeClasses {
+	.#{$nameSpace}-icon-shrink {
+		@include icon-shrink();
+	}
+}

@@ -1,0 +1,7 @@
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/shutter-in-vertical";
+@if $includeClasses {
+	.#{$nameSpace}-shutter-in-vertical {
+		@include shutter-in-vertical();
+	}
+}

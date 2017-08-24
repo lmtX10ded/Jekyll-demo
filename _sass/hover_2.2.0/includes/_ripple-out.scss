@@ -1,0 +1,7 @@
+/* BORDER TRANSITIONS */
+@import "effects/border-transitions/ripple-out";
+@if $includeClasses {
+	.#{$nameSpace}-ripple-out {
+		@include ripple-out();
+	}
+}

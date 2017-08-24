@@ -1,0 +1,7 @@
+/* ICONS */
+@import "effects/icons/icon-buzz";
+@if $includeClasses {
+	.#{$nameSpace}-icon-buzz {
+		@include icon-buzz();
+	}
+}

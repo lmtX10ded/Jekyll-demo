@@ -1,0 +1,22 @@
+@import 'burger';
+
+.menu-button {
+	display: inline-block;
+	padding: .5em;
+	background-color: #fafafa;
+//	border: 1px solid #ccc;
+}
+
+.burger-icon {
+	@include burger(25px, 3px, 5px, #f00);
+	/*
+	parametre 1: lenght of each slice 
+	parametre 2: thicknes / height of each slice
+	parametre 3: shows total hight of burger
+	*/
+}
+
+.menu-button.is-active .burger-icon {
+	@include burger-to-cross;
+}
+

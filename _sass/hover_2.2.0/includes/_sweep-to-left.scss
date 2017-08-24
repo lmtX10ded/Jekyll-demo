@@ -1,0 +1,7 @@
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/sweep-to-left";
+@if $includeClasses {
+	.#{$nameSpace}-sweep-to-left {
+		@include sweep-to-left();
+	}
+}

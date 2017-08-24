@@ -1,0 +1,7 @@
+/* CURLS */
+@import "effects/curls/curl-bottom-right";
+@if $includeClasses {
+	.#{$nameSpace}-curl-bottom-right {
+		@include curl-bottom-right();
+	}
+}

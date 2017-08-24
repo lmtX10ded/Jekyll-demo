@@ -1,0 +1,6 @@
+@import "effects/2d-transitions/forward";
+@if $includeClasses {
+	.#{$nameSpace}-forward {
+		@include forward();
+	}
+}

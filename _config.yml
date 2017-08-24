@@ -1,3 +1,6 @@
 name: Krish, Web developer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+sass:
+  sass_dir: _sass
+  style: compressed

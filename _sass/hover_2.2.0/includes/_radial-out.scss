@@ -1,0 +1,7 @@
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/radial-out";
+@if $includeClasses {
+	.#{$nameSpace}-radial-out {
+		@include radial-out();
+	}
+}

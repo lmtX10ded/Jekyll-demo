@@ -1,0 +1,7 @@
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/radial-in";
+@if $includeClasses {
+	.#{$nameSpace}-radial-in {
+		@include radial-in();
+	}
+}

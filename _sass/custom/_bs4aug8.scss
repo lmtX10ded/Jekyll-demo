@@ -1,0 +1,30 @@
+.main{
+	position: fixed;
+	top: rem(50px);
+	right: rem(50px);
+	bottom: rem(100px);
+	left: rem(50px);
+	color: $color_white;
+	background: rgba(0, 0, 0, .8);
+//	opacity: .5;
+//	background-color: black;
+}
+	.blureffect{
+
+	
+}	
+
+#main_nav{
+	.navbar-toggler{
+			padding: 0 10px 0 20px;
+			border: 1px solid white;
+		.navbar-toggler-icon{
+			
+			font-size: rem(1px);
+			color: $white;	
+		}
+		
+	}
+}
+
+

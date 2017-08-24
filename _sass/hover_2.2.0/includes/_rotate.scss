@@ -1,0 +1,6 @@
+@import "effects/2d-transitions/rotate";
+@if $includeClasses {
+	.#{$nameSpace}-rotate {
+		@include rotate();
+	}
+}

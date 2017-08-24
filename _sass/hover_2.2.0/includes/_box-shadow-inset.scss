@@ -1,0 +1,7 @@
+/* SHADOW/GLOW TRANSITIONS */
+@import "effects/shadow-and-glow-transitions/box-shadow-inset";
+@if $includeClasses {
+	.#{$nameSpace}-box-shadow-inset {
+		@include box-shadow-inset();
+	}
+}

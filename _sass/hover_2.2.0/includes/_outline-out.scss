@@ -1,0 +1,7 @@
+/* BORDER TRANSITIONS */
+@import "effects/border-transitions/outline-out";
+@if $includeClasses {
+	.#{$nameSpace}-outline-out {
+		@include outline-out();
+	}
+}

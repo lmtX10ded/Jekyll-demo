@@ -1,0 +1,7 @@
+/* BORDER TRANSITIONS */
+@import "effects/border-transitions/overline-from-left";
+@if $includeClasses {
+	.#{$nameSpace}-overline-from-left {
+		@include overline-from-left();
+	}
+}

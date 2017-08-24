@@ -1,0 +1,7 @@
+/* ICONS */
+@import "effects/icons/icon-push";
+@if $includeClasses {
+	.#{$nameSpace}-icon-push {
+		@include icon-push();
+	}
+}

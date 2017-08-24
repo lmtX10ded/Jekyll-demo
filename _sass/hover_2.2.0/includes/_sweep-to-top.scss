@@ -1,0 +1,7 @@
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/sweep-to-top";
+@if $includeClasses {
+	.#{$nameSpace}-sweep-to-top {
+		@include sweep-to-top();
+	}
+}

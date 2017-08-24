@@ -1,0 +1,7 @@
+/* SHADOW/GLOW TRANSITIONS */
+@import "effects/shadow-and-glow-transitions/float-shadow";
+@if $includeClasses {
+	.#{$nameSpace}-float-shadow {
+		@include float-shadow();
+	}
+}

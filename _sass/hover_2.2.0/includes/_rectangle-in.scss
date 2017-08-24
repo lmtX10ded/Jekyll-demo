@@ -1,0 +1,7 @@
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/rectangle-in";
+@if $includeClasses {
+	.#{$nameSpace}-rectangle-in {
+		@include rectangle-in();
+	}
+}

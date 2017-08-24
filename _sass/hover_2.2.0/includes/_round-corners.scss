@@ -1,0 +1,7 @@
+/* BORDER TRANSITIONS */
+@import "effects/border-transitions/round-corners";
+@if $includeClasses {
+	.#{$nameSpace}-round-corners {
+		@include round-corners();
+	}
+}

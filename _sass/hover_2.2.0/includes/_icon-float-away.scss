@@ -1,0 +1,7 @@
+/* ICONS */
+@import "effects/icons/icon-float-away";
+@if $includeClasses {
+	.#{$nameSpace}-icon-float-away {
+		@include icon-float-away();
+	}
+}

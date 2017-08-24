@@ -1,0 +1,7 @@
+/* ICONS */
+@import "effects/icons/icon-wobble-vertical";
+@if $includeClasses {
+	.#{$nameSpace}-icon-wobble-vertical {
+		@include icon-wobble-vertical();
+	}
+}

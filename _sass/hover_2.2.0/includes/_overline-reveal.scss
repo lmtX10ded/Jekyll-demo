@@ -1,0 +1,7 @@
+/* BORDER TRANSITIONS */
+@import "effects/border-transitions/overline-reveal";
+@if $includeClasses {
+	.#{$nameSpace}-overline-reveal {
+		@include overline-reveal();
+	}
+}

@@ -1,0 +1,7 @@
+/* BORDER TRANSITIONS */
+@import "effects/border-transitions/overline-from-center";
+@if $includeClasses {
+	.#{$nameSpace}-overline-from-center {
+		@include overline-from-center();
+	}
+}

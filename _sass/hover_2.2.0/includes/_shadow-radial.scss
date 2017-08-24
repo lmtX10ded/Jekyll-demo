@@ -1,0 +1,7 @@
+/* SHADOW/GLOW TRANSITIONS */
+@import "effects/shadow-and-glow-transitions/shadow-radial";
+@if $includeClasses {
+	.#{$nameSpace}-shadow-radial {
+		@include shadow-radial();
+	}
+}

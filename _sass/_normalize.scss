@@ -1,0 +1,19 @@
+body{
+	font-family: $body_font_family ;
+	font-size: $body_font_size;
+	line-height: $body_line_height;
+}
+a{
+	text-decoration: none ;
+	color: $color_link;	
+	&:hover{
+		color: $color_link_hover ;
+	}
+}
+/*---------------------
+Remove default margin from horizontal rule
+-------------------*/
+hr
+{
+margin: 0 ;
+}

@@ -1,0 +1,6 @@
+@import "effects/2d-transitions/buzz-out";
+@if $includeClasses {
+	.#{$nameSpace}-buzz-out {
+	    @include buzz-out();
+	}
+}

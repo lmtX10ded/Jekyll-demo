@@ -1,0 +1,7 @@
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/bounce-to-bottom";
+@if $includeClasses {
+	.#{$nameSpace}-bounce-to-bottom {
+		@include bounce-to-bottom();
+	}
+}

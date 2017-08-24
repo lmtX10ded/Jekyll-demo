@@ -1,0 +1,7 @@
+/* BORDER TRANSITIONS */
+@import "effects/border-transitions/hollow";
+@if $includeClasses {
+	.#{$nameSpace}-hollow {
+		@include hollow();
+	}
+}

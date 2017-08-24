@@ -1,0 +1,7 @@
+/* BORDER TRANSITIONS */
+@import "effects/border-transitions/outline-in";
+@if $includeClasses {
+	.#{$nameSpace}-outline-in {
+		@include outline-in();
+	}
+}

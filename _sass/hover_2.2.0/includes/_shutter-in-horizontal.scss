@@ -1,0 +1,7 @@
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/shutter-in-horizontal";
+@if $includeClasses {
+	.#{$nameSpace}-shutter-in-horizontal {
+		@include shutter-in-horizontal();
+	}
+}

@@ -1,0 +1,7 @@
+/* SPEECH BUBBLES */
+@import "effects/speech-bubbles/bubble-bottom";
+@if $includeClasses {
+	.#{$nameSpace}-bubble-bottom {
+		@include bubble-bottom();
+	}
+}

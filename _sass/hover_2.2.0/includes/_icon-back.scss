@@ -1,0 +1,7 @@
+/* ICONS */
+@import "effects/icons/icon-back";
+@if $includeClasses {
+	.#{$nameSpace}-icon-back {
+		@include icon-back();
+	}
+}

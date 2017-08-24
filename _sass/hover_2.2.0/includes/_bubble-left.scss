@@ -1,0 +1,7 @@
+/* SPEECH BUBBLES */
+@import "effects/speech-bubbles/bubble-left";
+@if $includeClasses {
+	.#{$nameSpace}-bubble-left {
+		@include bubble-left();
+	}
+}

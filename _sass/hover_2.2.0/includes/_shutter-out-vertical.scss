@@ -1,0 +1,7 @@
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/shutter-out-vertical";
+@if $includeClasses {
+	.#{$nameSpace}-shutter-out-vertical {
+		@include shutter-out-vertical();
+	}
+}

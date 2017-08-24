@@ -1,0 +1,6 @@
+@import "effects/2d-transitions/grow-rotate";
+@if $includeClasses {
+	.#{$nameSpace}-grow-rotate {
+		@include grow-rotate();
+	}
+}

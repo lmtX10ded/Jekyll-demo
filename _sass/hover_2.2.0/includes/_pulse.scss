@@ -1,0 +1,6 @@
+@import "effects/2d-transitions/pulse";
+@if $includeClasses {
+	.#{$nameSpace}-pulse {
+		@include pulse();
+	}
+}

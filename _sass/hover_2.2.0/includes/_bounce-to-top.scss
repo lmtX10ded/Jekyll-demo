@@ -1,0 +1,7 @@
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/bounce-to-top";
+@if $includeClasses {
+	.#{$nameSpace}-bounce-to-top {
+		@include bounce-to-top();
+	}
+}

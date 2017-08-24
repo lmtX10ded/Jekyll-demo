@@ -1,0 +1,7 @@
+/* ICONS */
+@import "effects/icons/icon-pulse-grow";
+@if $includeClasses {
+	.#{$nameSpace}-icon-pulse-grow {
+		@include icon-pulse-grow();
+	}
+}

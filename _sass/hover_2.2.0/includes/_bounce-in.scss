@@ -1,0 +1,6 @@
+@import "effects/2d-transitions/bounce-in";
+@if $includeClasses {
+	.#{$nameSpace}-bounce-in {
+		@include bounce-in();
+	}
+}

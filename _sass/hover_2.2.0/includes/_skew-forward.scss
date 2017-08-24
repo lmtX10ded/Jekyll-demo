@@ -1,0 +1,6 @@
+@import "effects/2d-transitions/skew-forward";
+@if $includeClasses {
+	.#{$nameSpace}-skew-forward {
+		@include skew-forward();
+	}
+}

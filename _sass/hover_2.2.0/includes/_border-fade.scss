@@ -1,0 +1,7 @@
+/* BORDER TRANSITIONS */
+@import "effects/border-transitions/border-fade";
+@if $includeClasses {
+	.#{$nameSpace}-border-fade {
+		@include border-fade();
+	}
+}

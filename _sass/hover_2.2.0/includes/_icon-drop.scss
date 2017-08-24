@@ -1,0 +1,7 @@
+/* ICONS */
+@import "effects/icons/icon-drop";
+@if $includeClasses {
+	.#{$nameSpace}-icon-drop {
+		@include icon-drop();
+	}
+}

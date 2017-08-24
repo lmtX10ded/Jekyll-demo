@@ -1,0 +1,6 @@
+@import "effects/2d-transitions/shrink";
+@if $includeClasses {
+	.#{$nameSpace}-shrink {
+		@include shrink();
+	}
+}

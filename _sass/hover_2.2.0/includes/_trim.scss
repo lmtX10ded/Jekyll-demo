@@ -1,0 +1,7 @@
+/* BORDER TRANSITIONS */
+@import "effects/border-transitions/trim";
+@if $includeClasses {
+	.#{$nameSpace}-trim {
+		@include trim();
+	}
+}

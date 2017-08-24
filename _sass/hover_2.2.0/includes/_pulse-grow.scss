@@ -1,0 +1,6 @@
+@import "effects/2d-transitions/pulse-grow";
+@if $includeClasses {
+	.#{$nameSpace}-pulse-grow {
+		@include pulse-grow();
+	}
+}

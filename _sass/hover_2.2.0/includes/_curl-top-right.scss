@@ -1,0 +1,7 @@
+/* CURLS */
+@import "effects/curls/curl-top-right";
+@if $includeClasses {
+	.#{$nameSpace}-curl-top-right {
+		@include curl-top-right();
+	}
+}

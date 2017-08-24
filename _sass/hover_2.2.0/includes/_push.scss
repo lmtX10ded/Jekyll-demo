@@ -1,0 +1,6 @@
+@import "effects/2d-transitions/push";
+@if $includeClasses {
+	.#{$nameSpace}-push {
+		@include push();
+	}
+}

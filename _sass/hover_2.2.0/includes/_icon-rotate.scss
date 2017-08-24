@@ -1,0 +1,7 @@
+/* ICONS */
+@import "effects/icons/icon-rotate";
+@if $includeClasses {
+	.#{$nameSpace}-icon-rotate {
+		@include icon-rotate();
+	}
+}

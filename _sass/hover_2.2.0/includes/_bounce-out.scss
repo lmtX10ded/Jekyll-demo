@@ -1,0 +1,6 @@
+@import "effects/2d-transitions/bounce-out";
+@if $includeClasses {
+	.#{$nameSpace}-bounce-out {
+		@include bounce-out();
+	}
+}

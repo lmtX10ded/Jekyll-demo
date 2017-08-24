@@ -1,0 +1,21 @@
+@import 'sass-rem/rem'; //sass-rem should execute first otherwise rem(12px) function won't work
+
+
+
+//@import 'hover_2.2.0/hover';
+@import 'font-awesome-4.7.0/font-awesome';
+@import 'bootstrap-4.0/bootstrap';
+//@import 'vegas/sass/vegas';
+@import 'sass-burger/style';
+
+/*-----------------
+User defined values should execute last So it will be !important itself
+----------------*/
+
+@import 'font_size/fs_rem';
+//@import 'font_size/fs_rem_fallback';
+@import 'typography';
+@import 'variables';
+@import 'mixins';
+@import 'normalize';
+@import 'custom/lmtX10ded';

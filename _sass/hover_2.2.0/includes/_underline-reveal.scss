@@ -1,0 +1,7 @@
+/* BORDER TRANSITIONS */
+@import "effects/border-transitions/underline-reveal";
+@if $includeClasses {
+	.#{$nameSpace}-underline-reveal {
+		@include underline-reveal();
+	}
+}
