@@ -1,26 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>{{ page.title }}</title>
-<!-- link to main stylesheet -->
-<link rel="stylesheet" type="text/css" href="/css/styles.css">
-</head>
-<body class="">
-<div class="container">
-  <div class="row">
-    <div class="col-md-12"> {% include nav.html %} </div>
-  </div>
-  <div class="row">
-     {{ content }}
-  </div>
-  <div class="row">
-    <div class="col-md-12"> {% include footer.html %} </div>
-  </div>
-</div>
-<!-- /.container --> 
-<script src="/js/jquery/jquery.min.js"></script> 
-<script src="/js/bootstrap/bootstrap.min.js"></script> 
-<script src="/js/tether/tether.min.js"></script> 
-<script id="dsq-count-scr" src="//lmtx10ded.disqus.com/count.js" async></script>
+{% include head.html %}
+<body class="animated fadeIn">
+{% include nav.html %}
+<hr>
+{{ content }}
+<hr>
+{% include footer.html %} 
+
+{% include scripts.html %}
+
 </body>
 </html>

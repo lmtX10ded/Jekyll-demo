@@ -1,0 +1,32 @@
+@mixin border_style($border_width, $border_style, $border_color){
+	border-width: $border_width;
+	border-style: $border_style;
+	border-color: $border_color;
+	
+}
+
+@mixin border_btm($border_width, $border_style, $border_color){
+	border-bottom-width: $border_width;
+	border-bottom-style: $border_style;
+	border-bottom-color: $border_color;
+}
+
+.border_1{
+	@include border_style(rem(1px), solid, $default_border_color);
+}
+.border_2{
+	@include border_style(rem(2px), solid, $default_border_color);
+}
+.border_3{
+	@include border_style(rem(3px), solid, $default_border_color);
+}
+.border_4{
+	@include border_style(rem(4px), solid, $default_border_color);
+}
+.border_5{
+	@include border_style(rem(5px), solid, $default_border_color);
+}
+
+.border_btm_1{
+	@include border_btm(rem(1px), solid, $default_border_color);
+}

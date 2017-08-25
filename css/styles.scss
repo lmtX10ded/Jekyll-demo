@@ -1,7 +1,9 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
+# need to define _sass dir in yaml config
 ---
 
+{% include /css/animate/animate.min.css %}
 @import 'style';
 
 

@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Sass - burger with Bootstrap 4 Nav Example"
-date: 2017-04-30
+date: 2017-08-24
 ---
+<div class="container"><div class="row">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 
 Sass - Burger with Bootstrap 4 example
@@ -31,13 +32,6 @@ Sass - Burger with Bootstrap 4 example
     </ul>
   </div>
 </nav>
-
-
-
-
-
-
-
 
 
 

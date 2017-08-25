@@ -2,11 +2,15 @@ body{
 	font-family: $body_font_family ;
 	font-size: $body_font_size;
 	line-height: $body_line_height;
+	-webkit-font-smoothing: antialiased;
 }
 a{
-	text-decoration: none ;
+	@include transition(all, .4s, ease-in-out);
 	color: $color_link;	
+	text-decoration: none;
+	cursor: pointer !important;
 	&:hover{
+		text-decoration: none;
 		color: $color_link_hover ;
 	}
 }
@@ -16,4 +20,10 @@ Remove default margin from horizontal rule
 hr
 {
 margin: 0 ;
+	border-color: $default_border_color;
+}
+ul,
+li{
+	margin: 0;
+	padding: 0;
 }

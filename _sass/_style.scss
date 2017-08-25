@@ -7,10 +7,12 @@
 @import 'bootstrap-4.0/bootstrap';
 //@import 'vegas/sass/vegas';
 @import 'sass-burger/style';
+@import 'hamburgers/hamburgers';
 
 /*-----------------
 User defined values should execute last So it will be !important itself
 ----------------*/
+
 
 @import 'font_size/fs_rem';
 //@import 'font_size/fs_rem_fallback';
@@ -18,4 +20,5 @@ User defined values should execute last So it will be !important itself
 @import 'variables';
 @import 'mixins';
 @import 'normalize';
+@import 'borders/style';
 @import 'custom/lmtX10ded';

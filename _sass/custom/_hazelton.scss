@@ -1,0 +1,426 @@
+/*---------------
+Greyscale_theme_part
+--------------*/
+
+#mainNav {
+	@include transition(all, .4s, ease-in-out);
+	padding: 10px 0;
+    font-family: $font_family;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    background-color: white;
+	background: transparent;
+	letter-spacing: 1px;
+    .navbar-toggler {
+        font-size: 13px;
+        padding: 11px;
+        color: white;
+        border: 1px solid black;
+    }
+	&.navbar-shrink {
+            padding: 10px 0;
+            background: white;
+        }
+	.navbar-nav{
+		.nav-item{
+			.nav-link{
+				&:hover{
+					border-bottom: 2px solid #a22b00;
+				}
+			}
+			.nav-link.active{
+				border-bottom: 2px solid #a22b00;
+			}
+		}
+	}
+} 
+
+.masthead {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+	position: relative;
+    text-align: center;
+    color: white;
+	background-image: url(img/bg_body.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+	&::before{
+		  @include pseudo();
+		  top: 0;
+//		  right: 0;
+//		  bottom: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		  background-image: linear-gradient(to top, #000000, transparent);
+		 
+		  opacity: .5;
+	}
+	
+    .intro-body {
+        display: table-cell;
+        vertical-align: middle;
+		ul{
+			margin-top: 500px;
+			li{
+				
+				a.building{
+					
+				}
+				a.highlight{
+					
+					color: black;
+					display: block;
+					font-size: 21px;
+					background: white;
+					padding: 15px 93px;
+					font-weight: 600;
+				}
+				
+				a.register{
+					
+					color: white;
+					display: block;
+					font-size: 21px;
+					background: #a22b00;
+					padding: 15px 150px;
+					font-weight: 600;
+				}
+				a.scroll{
+					color: white;
+					font-style: normal;
+					font-weight: 200;
+				}
+			}
+		}
+		
+        .brand-heading {
+            font-size: 40px;
+        }
+        .intro-text {
+            font-size: 18px;
+        }
+    }
+    @media(min-width:768px) {
+		
+        height: 100%;
+//        padding: 100px 0px;
+        .intro-body {
+            .brand-heading {
+                font-size: 100px;
+            }
+            .intro-text {
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+.btn-circle {
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    padding: 7px 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    color: white;
+    background: transparent;
+    &:hover,
+    &:focus {
+        color: white;
+        outline: none;
+//        background: fade-out(white, .9);
+		
+    }
+}
+
+.content-section {
+//    padding-top: 100px;
+	
+}
+
+.download-section {
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    background: url(img/thedifference.jpg) no-repeat center center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#map {
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+}
+
+@media(min-width:767px) {
+    .content-section {
+//        padding-top: 250px;
+    }
+    .download-section {
+        padding: 100px 0;
+    }
+    #map {
+        height: 350px;
+        margin-top: 250px;
+    }
+}
+
+.btn-default {
+    color: $primary;
+    border: 1px solid $primary;
+    background-color: transparent;
+    &:hover,
+    &:focus {
+        color: black;
+        border: 1px solid $primary;
+        outline: none;
+        background-color: $primary;
+    }
+}
+
+ul.banner-social-buttons {
+    margin-top: 0;
+    @media(max-width: 1199px) {
+        margin-top: 15px;
+    }
+    @media(max-width:767px) {
+        li {
+            display: block;
+            margin-bottom: 20px;
+            padding: 0;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+
+
+::-moz-selection {
+    background: #fcfcfc;
+    background: fade-out(white, .8);
+    text-shadow: none;
+}
+
+::selection {
+    background: #fcfcfc;
+    background: fade-out(white, .8);
+    text-shadow: none;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+body {
+    -webkit-tap-highlight-color: fade-out(white, .8);
+}
+
+
+
+/*-------------
+Hazelton main scss
+-------------*/
+
+
+
+.btn_submit{
+	background-color: $bg;
+	border: none;
+	padding: 10px 35px;
+	color: $color_white;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+.bg_black{
+	background-color: $bg;
+}
+.text_white{
+	color: $color_white;
+}
+.text_black{
+	color: $bg !important;
+}
+.text_email_link{
+	color: $email_link;
+}
+
+.text_space_5{letter-spacing: 5px;}
+
+.line_height_0{line-height: 0px;}
+.line_height_30{line-height: 30px;}
+.line_height_15{line-height: 15px;}
+
+.tringle_down{
+	display: block;
+	line-height: 0;
+	font-size: 7rem;
+}
+.tringle_up{
+	font-size: 9rem;
+	line-height: 0;
+	display: block;
+}
+.hr_line{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    width: 6%;
+}
+
+.btn_privacy_policy{
+	color: $color_white;
+	text-decoration: none;
+	background-color: transparent;
+	border-color: transparent;
+	&:hover{
+		color: $primary;
+		
+	}
+}
+.bg_ourteam{
+	background-image: url(img/bg_ourteam.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+	&::before{
+		  content: '';
+		  position: absolute;
+		  top: 0;
+		  right: 0;
+		  bottom: 0;
+		  left: 0;
+		  background-image: linear-gradient(to top, #000000, #000000);
+		  opacity: .7;
+	}
+}
+
+.bg_thedifference{
+	background-image: url(img/bg_thedifference.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+	&::before{
+		  content: '';
+		  position: absolute;
+		  top: 0;
+		  right: 0;
+		  bottom: 0;
+		  left: 0;
+		  background-image: linear-gradient(to top, #000000, #000000);
+		  opacity: .7;
+	}
+}
+.creative{
+	text-align: left;
+	
+}
+
+
+#middle_name,#fax_number{
+			display: none;
+		}
+
+.thank_you{
+	position: relative;
+	color: $color_white;
+	background-image: url(img/bg_thedifference.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+	height:80vh;
+	padding: 0 0 0 0;
+	
+	&::before{
+		
+		  content: '';
+		  position: absolute;
+		  top: 0;
+		  right: 0;
+		  left: 0;
+		  height: 100%;
+		  background-image: linear-gradient(to top, #000000, #000000);
+		  opacity: .7;
+	}
+	h1{
+	
+		margin: 30vh 0 0 0 !important;
+		@media(max-width:767px) {
+		margin: 10vh 0 0 0 !important;
+	}
+		@media(max-width:320px) {
+		margin: 10vh 0 0 0 !important;
+			font-size: 15px;
+	}
+	}
+	h2{
+		margin: 5vh 0 0 0;
+		@media(max-width:320px) {
+			font-size: 15px;
+		}
+	}
+	a.home{
+	display: inline-block;
+	margin: 5vh 0 0 0;
+    padding: 9px 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid $color_white;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+		&:hover{
+			 background-color: $primary;
+		}
+	}
+	
+}
+
+.logo_h{
+	@media (max-width:378px) {
+		width: 82%;
+	}
+}
+#back-top {
+
+    position: fixed;
+    bottom: 10px;
+    right: 40px;
+    display: none;
+	a{
+	color: white;
+	opacity: 0.3;
+	@include transition(all, .3s, ease-in-out);
+	}
+}
