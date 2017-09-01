@@ -14,7 +14,7 @@ Sass - Burger with Bootstrap 4 example
     <span class="burger-icon"></span>
 </a></span>
   </button>
-  <a class="navbar-brand" href="/">Home</a>
+  <a class="navbar-brand" href="#">Home</a>
   <div class="collapse navbar-collapse" id="burger_with_Bootstrap_4_Example">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
